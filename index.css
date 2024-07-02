@@ -1,0 +1,28 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gradient-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(45deg, #ff0000, #0000ff);
+    transition: background 1s ease;
+}
+
+button {
+    position: relative;
+    z-index: 1;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
